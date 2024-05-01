@@ -1,0 +1,940 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+    /* border: 2px solid black; */
+}
+.navbar img{
+    height: 2.5rem;
+    width: 7rem;
+}
+.list{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 8vh;
+    width: 110vh;
+    /* border: 2px solid red; */
+}
+.list a{
+    color: grey;
+    font-size: 1.1rem;
+    text-decoration: none;
+}
+.list a:nth-child(1){
+    color: black;
+}
+.list button{
+    height:6vh;
+    width: 16vh;
+    color: rgb(36, 169, 247);
+    background-color: transparent;
+    border: 2px solid rgb(36, 169, 247);
+    border-radius: 5px;
+    
+}
+/*############Main####################*/
+.main{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 75vh;
+    /* border: 2px solid rgb(24, 24, 250); */
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    height: 70vh;
+    width: 75vh;
+    /* border: 2px solid rgb(24, 24, 250); */
+}
+.left h1{
+    font-size: 3rem;
+    margin-top: 2rem;
+}
+.left p{
+    font-size: 1rem;
+}
+.left button{
+    height: 2.5rem;
+    width: 7rem;
+    border: none;
+    color: white;
+    background-color: rgb(36, 169, 247);
+    border-radius: 8px;
+    box-shadow: 1px 1px 2px 2px rgb(140, 206, 247);
+    
+}
+.main img{ 
+    height: 70vh;
+    width: 75vh; 
+    
+}
+/*############# MAIN 1 ###############*/
+.main1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 80vh;
+    margin-top: 2rem;
+    /* border: 2px solid rgb(24, 24, 250); */
+
+}
+.main1 img{ 
+    height: 70vh;
+    width: 75vh; 
+    
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    gap:2rem;
+    height: 70vh;
+    width: 75vh;
+    /* border: 2px solid rgb(24, 24, 250); */
+}
+.right h1{
+    font-size: 3rem;
+    margin-top: 2rem;
+}
+.right p{
+    font-size: 1rem;
+}
+.right button{
+    height: 2.5rem;
+    width: 7rem;
+    border: none;
+    color: white;
+    background-color: rgb(36, 169, 247);
+    border-radius: 8px;
+    box-shadow: 1px 1px 2px 2px rgb(205, 216, 223);
+}
+/*############# MAIN 1 END ################*/
+
+/*########### MAIN 3 ################*/
+
+.main3{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 75vh;
+    /* border: 2px solid rgb(24, 24, 250); */
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    height: 70vh;
+    width: 75vh;
+    /* border: 2px solid rgb(24, 24, 250); */
+}
+.left h1{
+    font-size: 3rem;
+    margin-top: 4rem;
+}
+.left p{
+    font-size: 1rem;
+}
+.left button{
+    height: 2.5rem;
+    width: 7rem;
+    border: none;
+    color: white;
+    background-color: rgb(36, 169, 247);
+    box-shadow: 1px 1px 2px 2px rgb(205, 216, 223);
+    
+}
+.main3 img{ 
+    height: 70vh;
+    width: 75vh; 
+}
+/*############# MAIN 3 END ################*/
+
+.main4{
+    height: 45rem;
+    /* border: 2px solid blue; */
+}
+.short{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 20vh;
+    /* border: 2px solid blue; */
+}
+.short h1{
+    font-size: 3rem;
+}
+.long{
+    height: 35rem;
+    /* border: 2px solid blue; */
+    margin-top: 1.5rem;
+}
+.top{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 17rem;
+    /* border: 2px solid blue; */
+}
+.bottom{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 17rem;
+    /* border: 2px solid blue; */
+}
+.first{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    gap: 1.5rem;
+    height: 16rem;
+    width: 20rem;
+    /* border: 2px solid rgb(7, 7, 7); */
+}
+.second{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    gap: 1.5rem;
+    height: 16rem;
+    width: 20rem;
+    /* border: 2px solid rgb(7, 7, 7); */
+}
+.third{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    gap: 1.5rem;
+    height: 16rem;
+    width: 20rem;
+    /* border: 2px solid rgb(7, 7, 7); */
+}
+.first img{
+    height: 50px;
+    width: 50px;
+}
+.second img{
+    height: 50px;
+    width: 50px;
+}
+.third img{
+    height: 50px;
+    width: 50px;
+}
+/*###########MAIN 5 ##############*/
+.main5{
+    margin-top: 2rem;
+    height: 40rem;
+    background-color: rgb(36, 169, 247);
+}
+.boxes{
+    display: flex;
+    justify-content: space-evenly;
+    height: 30rem;
+    border: 2px solid rgb(36, 169, 247);
+}
+.content{
+    margin-top: 2rem;
+    text-align: center;
+    height: 7rem;
+    width: 50rem;
+    margin-left: 18rem;
+    /* border: 2px solid rgb(5, 5, 10); */
+}
+
+.bone, .btwo, .bthree {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 30rem;
+    width: 20rem;
+    background-color: white;
+    /* border: 2px solid rgb(6, 6, 7); */
+    border-radius: 10px;
+}
+.one{
+    height: 6rem;
+    align-content: center;
+    padding-left: 1.4rem;    
+    /* border: 2px solid rgb(6, 6, 7); */
+    
+}
+.two{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+    height: 13rem;
+    padding-left: 1.4rem;
+    align-content: center;  
+    /* border: 2px solid rgb(6, 6, 7); */
+    
+}
+.three{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+    gap: 0.5rem;    
+    height: 7.3rem;
+    align-content: center;    
+    /* border: 2px solid rgb(6, 6, 7); */
+}
+.three button{
+    height: 6vh;
+    width: 17vh;
+    color: rgb(36, 169, 247);
+    border: 1px solid rgb(36, 169, 247);
+    border-radius: 5px;
+    background-color: transparent;
+    box-shadow: 1px 1px 2px 2px rgb(140, 208, 248);
+}
+.btwo .one{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+.btwo .three button{
+    height: 6vh;
+    width: 17vh;
+    color: white;
+    border: 1px solid rgb(36, 169, 247);
+    border-radius: 5px;
+    background-color: rgb(36, 169, 247);
+}
+/*############# MAIN 5 END#############*/
+
+/*##############MAIN 6 ###############*/
+.conten{
+    height: 10rem;
+    width: 50rem;
+    margin-left: 15rem;
+    text-align: center;
+    padding: 2rem;
+}
+.boxess{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-evenly; */
+    height: 35rem;
+    /* border: 2px solid rgb(91, 91, 247); */
+    
+}
+.box-one{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 21rem;
+    
+    /* border: 2px solid rgb(6, 6, 7); */
+}
+.ek, .do, .teen, .char{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;  
+    padding: 1rem;
+    height: 14rem;
+    width: 32rem;
+    border: 2px solid rgb(230, 227, 227);
+    border-radius: 10px;
+}
+.outer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 4rem;
+    width: 11rem;
+    /* border: 1px solid rgb(6, 6, 7); */
+}
+.circle{
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    background-color: rgb(182, 181, 181);
+    /* border: 2px solid rgb(6, 6, 7); */
+}
+.box-two{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 21rem;
+    /* border: 2px solid rgb(6, 6, 7); */
+}
+/*################ MAIN 7 ##############*/
+
+.main7{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 20rem;
+    background-color: rgb(36, 169, 247);
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    color: white;
+    height: 14rem;
+    width: 25rem;
+    margin-top: 3rem;
+    /* border: 2px solid rgb(6, 6, 7); */
+}
+.main7 button{
+    color: white;
+    height: 2.5rem;
+    width: 7rem;
+    border-radius: 5px;
+    border: 2px solid rgb(140, 208, 248); 
+    background-color: transparent;
+    box-shadow: 1px 1px 2px 2px rgb(140, 208, 248);
+}
+/* ##################MAIN 7 END ###########*/
+
+/*############### FOOTER ##################*/
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 40vh;
+}
+.log-con{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* gap: 1rem; */
+    height: 10rem;
+    width: 20rem;
+    /* border: 2px solid black; */
+}
+.log-con img{
+    height: 40px;
+    width: 100px;
+}
+.list1{
+    display: flex;
+    justify-content: space-evenly;
+    height: 15rem;
+    width: 33rem;
+    /* border: 2px solid black; */
+}
+.Menu, .Link, .Overview{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    gap: 1rem;
+    height:12rem;
+    width: 10rem;
+    /* border: 2px solid black; */
+}
+.social{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 6rem;
+    width: 15rem;
+    /* border: 2px solid black; */
+}
+.icons{    
+    display: flex;
+    justify-content: space-evenly;
+    height: 2rem;
+    width: 12rem;
+    /* border: 2px solid black; */
+}
+.icons img{
+    height: 2rem;
+}
+/*############Responsive#############*/
+@media only screen and (max-width:980px){
+    .navbar{
+        display: flex;
+        justify-content: space-evenly;
+        overflow: scroll;
+    }
+    
+    .list{
+        
+        width: 55vh;
+        height: 8vh;
+        display: flex;
+        align-items: center;
+    }
+    .list a{
+        color: grey;
+        font-size: 0.8rem;
+        text-decoration: none;
+    }
+    .main{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-self: center;
+        height: 70vh;
+        /* border: 2px solid rgb(24, 24, 250); */
+    }
+    .main img{ 
+        height: 40vh;
+        width: 50vh; 
+        
+    }
+    .left{
+        display: flex;
+        flex-direction: column;
+        gap: 0.8rem;
+        position: absolute;
+        margin-top: 35rem;
+        height: 48vh;
+        width: 65vh;
+        /* border: 2px solid rgb(24, 24, 250); */
+    }
+    .left h1{
+        font-size: 1.3rem;
+        margin-top: 1rem;
+    }
+    .left p{
+        font-size: 0.7rem;
+    }
+    .left button{
+        height: 1.9rem;
+        width: 5rem;
+        border: none;
+        color: white;
+        background-color: rgb(36, 169, 247);
+        border-radius: 5px;
+        box-shadow: 1px 1px 2px 2px rgb(140, 206, 247);
+        
+    }
+    /*########### MAIN 1##############*/
+    .main1{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 80vh;
+        margin-top: 2rem;
+        /* border: 2px solid rgb(24, 24, 250); */
+    
+    }
+    .main1 img{ 
+        height: 40vh;
+        width: 55vh; 
+        
+    }
+    .right{
+        display: flex;
+        flex-direction: column;
+        gap:2rem;
+        position: absolute;
+        margin-top: 27rem;
+        height: 40vh;
+        width: 55vh;
+        /* border: 2px solid rgb(24, 24, 250); */
+    }
+    .right h1{
+        font-size: 1.8rem;
+        margin-top: 1rem;
+    }
+    .right p{
+        font-size: 0.8rem;
+    }
+    .right button{
+        height: 1.8rem;
+        width: 5rem;
+        border: none;
+        color: white;
+        background-color: rgb(36, 169, 247);
+        border-radius: 8px;
+        box-shadow: 1px 1px 2px 2px rgb(205, 216, 223);
+    }
+    /*##########Main 1 END ############*/
+    /*##########Main 3 ############*/
+    .main3{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 85vh;
+        /* border: 2px solid rgb(24, 24, 250); */
+    }
+    .left{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        position: absolute;
+        
+        height: 85vh;
+        width: 75vh;
+        
+        /* border: 2px solid rgb(24, 24, 250); */
+    }
+    .left h1{
+        font-size: 1.8rem;
+        margin-top: 3rem;
+        margin-top: 5rem;
+        margin-left: 5rem;
+    }
+    .left p{
+        font-size: 0.8rem;
+        margin-left: 5rem;
+    }
+    .left button{
+        height: 1.8rem;
+        width: 5rem;
+        border: none;
+        color: white;
+        margin-left: 5rem;
+        background-color: rgb(36, 169, 247);
+        box-shadow: 1px 1px 2px 2px rgb(205, 216, 223);
+        
+    }
+    .main3 img{ 
+        height: 40vh;
+        width: 55vh; 
+    }
+    /*##############MAIN  4 ################*/
+    .main4{
+        margin-top: 2rem;
+        height: 120rem;
+        /* border: 2px solid blue; */
+    }
+    .short{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 25vh;
+        /* border: 2px solid blue; */
+    }
+    .short h1{
+        font-size: 2rem;
+        margin-left: 1.6rem;
+    }
+    .short p{
+        position: absolute;
+        margin-top: 10rem;
+        
+    }
+    .long{
+        height: 110rem;
+        /* border: 2px solid blue; */
+        margin-top: 0rem;
+    }
+    .top{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 50rem;
+        /* border: 2px solid blue; */
+    }
+    .bottom{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 45rem;
+        /* border: 2px solid blue; */
+    }
+    .first{
+        display: flex;
+        flex-direction: column;
+        justify-content:space-evenly;
+        gap: 1.5rem;
+        height: 10rem;
+        width: 15rem;
+        /* border: 2px solid rgb(7, 7, 7); */
+    }
+    .second{
+        display: flex;
+        flex-direction: column;
+        justify-content:space-evenly;
+        gap: 1.5rem;
+        height: 10rem;
+        width: 15rem;
+        /* border: 2px solid rgb(7, 7, 7); */
+    }
+    .third{
+        display: flex;
+        flex-direction: column;
+        justify-content:space-evenly;
+        gap: 1.5rem;
+        position: absolute;
+        margin-top: 55rem;
+        height: 10rem;
+        width: 15rem;
+        /* border: 2px solid rgb(7, 7, 7); */
+    }
+    .bottom .first {
+        margin-top: 10rem;
+    }
+    
+    .first img{
+        height: 35px;
+        width: 35px;
+    }
+    .second img{
+        height: 35px;
+        width: 35px;
+    }
+    .third img{
+        height: 35px;
+        width: 35px;
+    }
+    /*############ Main 4 END ##########*/
+   
+    /*###########MAIN 5 ##############*/
+    .main5{
+        margin-top: 2rem;
+        height: 100rem;
+        background-color: rgb(36, 169, 247);
+    }
+    .boxes{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin-left: 6rem;
+        gap: 3.5rem;
+        height: 5%;
+        border: 2px solid rgb(36, 169, 247);
+    }
+    .content{
+        padding-top: 2rem;
+        text-align: center;
+        height: 5rem;
+        width: 20rem;
+        margin-left: 1rem;
+        /* border: 2px solid rgb(5, 5, 10); */
+    }
+    
+    .bone, .btwo, .bthree {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        
+        height: 30rem;
+        width: 15rem;
+        
+        background-color: white;
+        /* border: 2px solid rgb(6, 6, 7); */
+        border-radius: 10px;
+    }
+    .one{
+        height: 6rem;
+        align-content: center;
+        padding-left: 1.4rem;    
+        /* border: 2px solid rgb(6, 6, 7); */
+        
+    }
+    .two{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        
+        height: 13rem;
+        padding-left: 1.4rem;
+        align-content: center;  
+        /* border: 2px solid rgb(6, 6, 7); */
+        
+    }
+    .three{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-self: center;
+        gap: 0.5rem;    
+        height: 7.3rem;
+        align-content: center;    
+        /* border: 2px solid rgb(6, 6, 7); */
+    }
+    .three button{
+        height: 6vh;
+        width: 17vh;
+        color: rgb(36, 169, 247);
+        border: 1px solid rgb(36, 169, 247);
+        border-radius: 5px;
+        background-color: transparent;
+        box-shadow: 1px 1px 2px 2px rgb(140, 208, 248);
+    }
+    .btwo .one{
+        background-color: black;
+        color: white;
+        border-radius: 10px;
+    }
+    .btwo .three button{
+        height: 6vh;
+        width: 17vh;
+        color: white;
+        border: 1px solid rgb(36, 169, 247);
+        border-radius: 5px;
+        background-color: rgb(36, 169, 247);
+    }
+    /*############# MAIN 5 END#############*/
+    
+    /*##############MAIN 6 ###############*/
+    .conten{
+        text-align: left;
+        
+    }
+    .boxess{
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-evenly; */
+        height: 80rem;
+        /* border: 2px solid rgb(91, 91, 247); */
+    
+    }
+    .box-one{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        gap: 2rem;
+        align-items: center;
+        height: 21rem;
+        /* border: 2px solid rgb(6, 6, 7); */
+    }
+    .ek, .do, .teen, .char{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;  
+        /* gap: 2rem; */
+        padding: 1rem;
+        height: 20rem;
+        width: 25rem;
+        border: 2px solid rgb(230, 227, 227);
+        border-radius: 10px;
+    }
+    .outer{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 4rem;
+        width: 10rem;
+        /* border: 1px solid rgb(6, 6, 7); */
+    }
+    .circle{
+        height: 2rem;
+        width: 2rem;
+        border-radius: 50%;
+        background-color: rgb(182, 181, 181);
+        /* border: 2px solid rgb(6, 6, 7); */
+    }
+    .box-two{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        gap: 2rem;
+        align-items: center;
+        height: 21rem;
+        /* border: 2px solid rgb(6, 6, 7); */
+    }
+    /*################ MAIN 7 ##############*/
+    
+    .main7{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 20rem;
+        background-color: rgb(36, 169, 247);
+    }
+    .text{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        color: white;
+        height: 14rem;
+        width: 25rem;
+        margin-top: 3rem;
+        position: absolute;
+        margin-left: 5rem;
+        /* border: 2px solid rgb(6, 6, 7); */
+    }
+    .main7 button{
+        color: white;
+        height: 2.5rem;
+        width: 7rem;
+        border-radius: 5px;
+        margin-top: 13rem;
+        margin-right: 3rem;
+        border: 2px solid rgb(140, 208, 248); 
+        background-color: transparent;
+        box-shadow: 1px 1px 2px 2px rgb(140, 208, 248);
+    }
+    /* ##################MAIN 7 END ###########*/
+    
+    /*############### FOOTER ##################*/
+    footer{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 40vh;
+        margin-top: 5rem;
+    }
+    .log-con{
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-evenly; */
+        /* gap: 1rem; */
+        height: 20rem;
+        width: 30rem;
+        /* margin-left: 5rem; */
+        /* border: 2px solid black; */
+    }
+    .log-con img{
+        height: 40px;
+        width: 100px;
+    }
+
+    .log-con {
+        height: 5rem;
+        width: 10rem;
+    }
+    .list1{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        position: absolute;
+        margin-top: 60rem;
+        margin-right: 0.5rem;
+        height: 35rem;
+        width: 25rem;
+        /* border: 2px solid black; */
+    }
+    .Menu, .Link, .Overview{
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        gap: 1rem;
+        height:12rem;
+        width: 10rem;
+        /* border: 2px solid black; */
+    }
+    .social{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 6rem;
+        width: 15rem;
+        position: absolute;
+        margin-top: 100rem;
+        margin-right: 1.5rem;
+        /* border: 2px solid black; */
+    }
+    .icons{    
+        display: flex;
+        justify-content: space-evenly;
+        height: 2rem;
+        width: 12rem;
+        /* border: 2px solid black; */
+    }
+    .icons img{
+        height: 2rem;
+    }
+    
+
+}
