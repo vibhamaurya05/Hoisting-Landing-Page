@@ -493,8 +493,8 @@ footer{
         justify-content: space-between;
         align-items: center;
         height: 8vh;
-        width: 100vh;
-        gap: 1.5rem;
+        width: 130vh;
+        gap: 2rem;
         /* border: 2px solid red; */
     }
     .list a{
